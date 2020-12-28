@@ -1,0 +1,31 @@
+{
+  "name": "modernscript",
+  "version": "0.1.0",
+  "description": "Sucrase preset for typescript and esm",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futurematik/modernscript.git"
+  },
+  "bin": {
+    "runjs": "./run.js"
+  },
+  "keywords": [
+    "sucrase",
+    "typescript",
+    "esm",
+    "modules",
+    "node",
+    "runtime"
+  ],
+  "author": "Gordon Leigh <gordon.leigh@futurematik.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gordonmleigh/modernscript/issues"
+  },
+  "homepage": "https://github.com/gordonmleigh/modernscript#readme",
+  "dependencies": {
+    "pirates": "^4.0.1",
+    "sucrase": "^3.16.0"
+  }
+}
